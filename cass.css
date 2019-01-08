@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #edfeff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     
+   margin: 10;
+   
+}
+.bg {
+  
+    background-color: black;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    height: 50%;
+}
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}  
+nav {
+    width:100%;
+    height: 60px;
+    background-color: #97b4db;
+}
+nav p {
+    font-family: Arial;
+    font-style: revert;
+    color: black;
+    font-size: 33px;
+    float: left;
+    line-height: 55px;
+    padding: 0px 20px;
+
+}
+nav ul {
+    float: right;
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+nav ul li a{
+    display: block;
+    font-family: Arial;
+    color: azure;
+    font-size: 14px;
+    padding: 22px 14px;
+    text-decoration: none;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #a6bcd8;
+    padding: 2px;
+    border-radius: 0px 0px 4px 4px;
+}
+nav ul li:hover ul {
+    display: block;
+ }
+nav ul li ul li {
+    width: 130px;
+    background-origin:4px;
+}
+nav ul li ul li a {
+    padding: 8px 14px;
+}
+nav ul li ul li a:hover {
+    background-color: #c6e6ff;
+}
+/*from old */
+
+
+.header {
+    width: 30%;
+    margin: 0px auto 0px;
+    color: white;
+    background: #ca00cc;
+    text-align: center;
+    border: 1px solid #a6bcd8;
+    border-bottom: none;
+    border-radius: 0px 0px 0px 0px;
+    padding: 20px;
+    
+}
+#head {
+    width: 100%;
+    height: 60px;
+    background-color: #18414e;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.signpopup
+{
+    font-size:15px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+    #head a {
+        margin-top: 10px;
+        font-size: 15px;
+        text-align: center;
+        float:right;
+        color: aqua;
+        margin: 10px;
+        text-decoration: none;
+    }
+    #head h3{
+        color:green;
+    }
+    
+    button:hover {
+        color: chartreuse;
+        cursor: pointer;
+        background: #18414e
+    }
+     .gh {
+        float: center;
+        color: orange;
+        margin-right: 175x;
+       text-align: center;
+    }
+    .view
+    {
+        text-align: center;
+        float: right;
+        text-align: top;
+
+    }
+
+.wel
+ {
+     font-size: 52px;
+     text-align: center;
+     color: black;
+     font-style: revert;
+ }
+ .gal
+ {
+    font-size: 52px;
+    text-align: right;
+    color: black;
+    font-style: italic
+ }
+
+.move-form {
+    padding-top: 2%;
+}
+.input-group
+{
+    margin: 10px 0px 10px 0px;
+}
+.input-group label 
+{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input
+{
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 0px;
+}
+ h1 {
+    color: black;
+   text-align: center;
+    font-style: revert;
+    font-size: bold;
+    margin-left: 0%;
+}  
+
+/********************Footer***********************/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: right;
+ }
+ .cup {
+     border: 10px;
+     border-radius: 0px 0px 10px 10px;
+
+ }
+.me {
+    float: left;
+    width: 22%;
+    padding:0.75px;
+ }
+ .me a{
+     text-decoration: none;
+ }
+ .me button{
+    float: left;
+ }
+ #gallery{
+    margin: 10px 0px 0px 50px;
+    border: 10px solid #070000;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 400%;
+  }
+  .row a{
+      float: right;
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+    .nav a:not(:first-child) {display: none;}
+    .nav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  
+  
+  @media screen and (max-width: 600px) {
+    .nav.responsive {position: relative;}
+    }
+    .nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .navbar {
+        overflow: hidden;
+        background-color: #333; 
+    }
+    
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .subnav {
+        float: left;
+        overflow: hidden;
+    }
+    
+    .subnav .subnavbtn {
+        font-size: 16px;    
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+    
+    .navbar a:hover, .subnav:hover .subnavbtn {
+        background-color: red;
+    }
+    
+    .subnav-content {
+        display: none;
+        position: absolute;
+        left: 0;
+        background-color: red;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .subnav-content a {
+        float: left;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .subnav-content a:hover {
+        background-color: #eee;
+        color: black;
+    }
+    
+    .subnav:hover .subnav-content {
+        display: block;
+    }
+    #main {
+        padding: 4px;
+        text-align: center;
+        float: center;
+        margin: auto;
+    }
+    .div {
+        float: center;
+        text-align: center;
+       width: 10%;
+        margin: auto;
+    }
+    .lin p {
+        text-align: center;
+        float: center;
+        margin: auto;
+    }
+	.page {
+		margin-bottom: 2%;
+	}
